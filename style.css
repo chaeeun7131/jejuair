@@ -184,7 +184,7 @@ body{
     height: 260px;
 }
 
-#info-box .img-box img:nth-last-child(2){
+#info-box .img-box a:nth-last-child(2){
   margin-top: -50px;
 }
 
@@ -212,7 +212,7 @@ body{
     width: 380px;
     height: 140px;
     background: #fff;
-    margin-top: -50px;
+    margin-top: -55px;
     text-align: center;
     padding-top: 50px;
     outline: 1px solid #ccc;
