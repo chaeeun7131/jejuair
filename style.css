@@ -21,6 +21,7 @@ body{
 }
 
 .bg-img{
+    position: relative;
     background-image: url("images/main-banner.jpg");
     background-size: cover;
     width: 100%;
@@ -51,7 +52,7 @@ body{
 .nav{
     display: flex;
     justify-content: flex-end;
-    width: calc(100% - 200px);
+    width: 1200px;
 }
 
 .nav > li{
@@ -66,10 +67,12 @@ body{
 
 #banner-txt {
     width: 1200px;
-    margin-top: 280px;
-    margin-left: 150px;
     /* outline: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 300px;
 }
+
 
 #banner-txt p{
     color: #fff;
@@ -88,7 +91,7 @@ body{
     width: 1200px;
     margin: 0 auto;
     background: #fff;
-    border: 1px solid #333;
+    border: 1px solid #ccc;
 }
 
 #main-box > .txt1{
@@ -143,7 +146,7 @@ body{
     position:absolute;
     margin-top: 82px;
     width: 300px;
-    border: 1px solid #707070;
+    border: 1px solid #333;
     margin-left: 790px;
     left: 0;
 }
@@ -201,7 +204,8 @@ body{
     background: #fff;
     text-align: center;
     padding-top: 50px;
-    outline: 1px solid #707070;
+    outline: 1px solid #ccc;
+    margin-top: -5px;
 }
 
 #info-box .img-detail .box2{
@@ -211,7 +215,7 @@ body{
     margin-top: -50px;
     text-align: center;
     padding-top: 50px;
-    outline: 1px solid #707070;
+    outline: 1px solid #ccc;
 }
 
 #info-box .img-detail .box3{
@@ -220,7 +224,8 @@ body{
     background: #fff;
     text-align: center;
     padding-top: 50px;
-    outline: 1px solid #707070;
+    outline: 1px solid #ccc;
+    margin-top: -5px;
 }
 
 #info-box .img-detail > .box >.price {
@@ -251,29 +256,32 @@ body{
      height: 450px;
      background: #ff5000;
      margin-bottom: 100px;
+     padding-top: 30px;
 }
 
- .event-title{
+#event-box .event-title{
     display: flex;
-    width: 600px;
+    width: 500px;
     height: 60px;
     background: #fff;
     margin: 0 auto;
     border-radius: 50px;
-    position: absolute;
-    margin-left: 400px;
-    margin-top: 50px;
+    position: relative;
+    /* outline: 1px solid black; */
 }
 
- .event-title img{
+.event-title > img{
+    width: 170px;
     height: 30px;
     margin: 0 auto;
     margin-top: 18px;
+    /* margin-left: 80px; */
 }
 
- .event-title p{
+ .event-title > p{
    font-size: 30px;
    color: #888888;
+   margin: 0 auto;
    margin-top: 10px;
 }
 
@@ -283,7 +291,7 @@ body{
     font-size: 20px;
     width: 1200px;
     margin: 0 auto;
-    padding-top: 130px;
+    padding-top: 50px;
 }
 
 .event-info .discount{
@@ -336,7 +344,7 @@ body{
 
 #footer-info{
     width: 100%;
-    border: 1px solid #707070;
+    background: #707070;
 }
 
 
@@ -358,12 +366,12 @@ body{
 .footer-box p{
     margin-top: 50px;
     margin-left: 70px;
-    color: #666666;
+    color: #333;
 }
 
 .footer-box .copyright{
     position: absolute;
     margin-top: 150px;
     margin-left: 270px;
-    color: #888888;
+    color: #333;
 }
